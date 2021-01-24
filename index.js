@@ -1,5 +1,5 @@
 function getData() {
-    fetch('http://localhost:3000/tarek')
+    fetch('https://cafetarek.herokuapp.com/data')
         .then(response => response.json())
         .then(json => {
             mainul = document.getElementById('mainUl')
